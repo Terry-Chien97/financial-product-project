@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-FinancialProductApplication<financial-product>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/backend",
+      "mainClass": "com.esun.FinancialProductApplication",
+      "projectName": "financial-product",
+      "args": ""
+    }
+  ]
+}

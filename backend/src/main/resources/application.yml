@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: none
+jwt:
+  token:
+    expire: 60
+  secret:
+    base64: TYdlnuBXQQKBCOzmme6b8OZNZEc7/c06EqyYrKefB6PD4bvrGyn7GPBFkkVBLqdeau4K3+SU+HhYAqJq3SJWKg==
